@@ -9,10 +9,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "axdane"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "Workspace_Webinar"
     }
   }
 }
